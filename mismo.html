@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Practica css</title>
+   <style>
+       h1{
+           color: aquamarine;
+           background-color: blue;
+       }
+
+       table, tr, th{
+           border: 2px solid greenyellow;
+           border-collapse: collapse;
+           font-size: 110%;
+       }
+       #contenedor{
+           text-align: center;
+       }
+       #tabla{
+           width: 100%;
+           text-align: center;
+       }
+       tr:nth-child(odd){
+           background-color: green;
+           color: white;
+       }
+   </style>
+ </head>
+    
+ <body>
+     <div id="contenedor">
+        <div>
+            <h1>En esta página vamos a usar estilos definidos en el mismo fichero HTML...y continuamos con la tabla</h1>
+        </div>
+            <table id="tabla">
+                <tr id="titulo">
+                    <th>Puesto</th>
+                    <th>Película</th>
+                    <th>Fecha estreno</th>
+                    <th>Recaudación mundial</th>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <th>Pokémon: detective Pikachu</th>
+                    <th>10 Mayo 2019</th>
+                    <th>427.492.041</th>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <th>Alita: ángel de batalla</th>
+                    <th>14 Febrero 2019</th>
+                    <th>404.852.543</th>
+                </tr>
+                <tr>
+                    <th>9</th>
+                    <th>Godzilla: king of monsters</th>
+                    <th>31 Mayo 2019</th>
+                    <th>378.456.678</th>
+                </tr>
+                <tr>
+                    <th>10</th>
+                    <th>¡Shazam!</th>
+                    <th>5 Abril 2019</th>
+                    <th>364.105.365</th>
+                </tr>
+                <tr>
+                    <th>11</th>
+                    <th>Dumbo</th>
+                    <th>29 Marzo 2019</th>
+                    <th>351.824.891</th>
+                </tr>
+                <tr>
+                    <th>12</th>
+                    <th>Spider-Man: far from home</th>
+                    <th>2 Julio 2019</th>
+                    <th>342.455.628</th>
+                </tr>
+            </table>
+        <p>Para ver la siguien página con el estilo en la misma etiqueta pulsa <a href="etiquetas.html">aqui</a></p>
+    </div>
+ </body>
+</html>
